@@ -18,4 +18,5 @@ set nowrap
 
 
 let g:airline_theme='atomic'
+let g:ack_default_options = " -s -H -i --nocolor --nogroup --column --follow"
 
