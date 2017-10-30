@@ -1,18 +1,21 @@
+execute pathogen#infect()
+
+syntax on
 colorscheme evening
 
-set paste
+set guifont=Ubuntu\ Mono\ 13
+set number
 
-set nowrap
-
+set sw=4
+set ts=4
 set smartindent
 set smartcase
 set ignorecase
 
-set number
+set paste
+set nowrap
 
-set ts=4
-set sw=4
 
-execute pathogen#infect()
 
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:airline_theme='atomic'
+
